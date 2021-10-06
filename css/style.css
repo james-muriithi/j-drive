@@ -116,6 +116,7 @@ header .push-right .btn-login:hover {
     }
     header .push-right .btn-login {
         padding: 10px 30px;
+        border-radius: 15px;
     }
 }
 
@@ -155,7 +156,7 @@ header .push-right .btn-login:hover {
 
 #hero .hero-title{
     padding-bottom: 30px;
-    font-size: 38px;
+    font-size: 40px;
     margin-top: 0px;
 }
 
@@ -173,7 +174,10 @@ header .push-right .btn-login:hover {
 #hero .download-buttons{
     margin-top: 150px;
 }
-
+#hero .download-buttons img{
+    width: 200px;
+    margin-right: 20px;
+}
 #hero .orange-rectangle{
     position: absolute;
     right: -15px;
@@ -185,12 +189,95 @@ header .push-right .btn-login:hover {
     display: flex;
     align-items: center;
     z-index: 2;
+    transition: all 0.2s linear;
 }
 
 #hero .orange-rectangle img{
     max-height: 700px;
     max-width: 800px;
     transform: translateX(-400px) translateY(50px);
+}
+/* hero responsiveness */
+@media screen and (max-width: 1215px) {
+    #hero .orange-rectangle img{
+        max-height: 600px;
+        max-width: 700px;
+        transform: translateX(-300px) translateY(50px);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #hero .orange-rectangle{
+        right: -15px;
+        top: 100px;
+        height: 100%;
+        width: 330px;
+    }
+    #hero .download-buttons{
+        margin-top: 100px;
+    }
+    #hero .download-buttons img{
+        width: 170px;
+    }
+    #hero .orange-rectangle img{
+        max-height: 500px;
+        max-width: 600px;
+        transform: translateX(-200px) translateY(50px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hero .orange-rectangle{
+        display: none;
+    }
+    #hero .hero-description{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero .download-buttons{
+        margin-top: 40px;
+    }
+    #hero .hero-title{
+        padding-bottom: 20px;
+        font-size: 34px;
+        margin-top: 0px;
+    }
+
+    #hero .hero-description>p{
+        font-size: 22px;
+        line-height: 33px;
+    }
+    #hero .download-buttons img{
+        width: 130px;
+        height: 50px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    #hero .download-buttons{
+        margin-top: 40px;
+    }
+    #hero .hero-title{
+        padding-bottom: 20px;
+        font-size: 32px;
+        margin-top: 0px;
+    }
+
+    #hero .hero-description>p{
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 400;
+        color: #3a3a3a;
+    }
+    #hero{
+        padding: 0px 20px 0 20px;
+    }
+    #hero .hero-title{
+        margin-top: 40px;
+    }
 }
 /* utilities */
 
