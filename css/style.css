@@ -32,9 +32,11 @@ a {
 }
 
 /* header */
-header{
+
+header {
     border-bottom: 4px solid #c6c6c6;
 }
+
 .header {
     padding: 5px 30px 0px;
     display: flex;
@@ -76,9 +78,11 @@ header .push-right .btn-login {
     color: #fefefe;
     border-radius: 17px;
 }
-header .push-right .auth{
+
+header .push-right .auth {
     margin-left: 50px;
 }
+
 header .push-right .btn-login:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     background-color: #F9621F;
@@ -86,12 +90,12 @@ header .push-right .btn-login:hover {
 }
 
 /* header responsiveness */
+
 @media screen and (max-width: 992px) {
-    header .push-right .auth{
+    header .push-right .auth {
         margin-left: 20px;
         padding-right: 10px !important;
     }
-
     header .push-right>.nav .nav-item {
         padding: 0 25px;
         font-size: 19px;
@@ -102,11 +106,10 @@ header .push-right .btn-login:hover {
 }
 
 @media screen and (max-width: 804px) {
-    header .push-right .auth{
+    header .push-right .auth {
         margin-left: 10px;
         padding-right: 10px !important;
     }
-
     header .push-right>.nav .nav-item {
         padding: 0 15px;
         font-size: 18px;
@@ -121,14 +124,12 @@ header .push-right .btn-login:hover {
 }
 
 @media screen and (max-width: 701px) {
-
     header .push-right>.nav .nav-item:not(.auth) {
         display: none;
     }
 }
 
 @media screen and (max-width: 411px) {
-
     header .push-right .btn-login {
         padding: 10px 20px;
     }
@@ -138,47 +139,47 @@ header .push-right .btn-login:hover {
     }
 }
 
-
-
 /* Hero Section */
 
-#hero{
+#hero {
     height: 88%;
     display: flex;
     align-items: center;
     padding-left: 50px;
 }
 
-#hero .left-part{
+#hero .left-part {
     position: relative;
     z-index: 10;
 }
 
-#hero .hero-title{
+#hero .hero-title {
     padding-bottom: 30px;
     font-size: 40px;
     margin-top: 0px;
 }
 
-#hero .hero-description{
+#hero .hero-description {
     width: 57%;
 }
 
-#hero .hero-description>p{
+#hero .hero-description>p {
     font-size: 25px;
     line-height: 39px;
     font-weight: 450;
     color: #3a3a3a;
 }
 
-#hero .download-buttons{
+#hero .download-buttons {
     margin-top: 150px;
 }
-#hero .download-buttons img{
+
+#hero .download-buttons img {
     width: 200px;
     margin-right: 20px;
 }
-#hero .orange-rectangle{
+
+#hero .orange-rectangle {
     position: absolute;
     right: -15px;
     top: 40px;
@@ -192,14 +193,16 @@ header .push-right .btn-login:hover {
     transition: all 0.2s linear;
 }
 
-#hero .orange-rectangle img{
+#hero .orange-rectangle img {
     max-height: 700px;
     max-width: 800px;
     transform: translateX(-400px) translateY(50px);
 }
+
 /* hero responsiveness */
+
 @media screen and (max-width: 1215px) {
-    #hero .orange-rectangle img{
+    #hero .orange-rectangle img {
         max-height: 600px;
         max-width: 700px;
         transform: translateX(-300px) translateY(50px);
@@ -207,19 +210,19 @@ header .push-right .btn-login:hover {
 }
 
 @media screen and (max-width: 1080px) {
-    #hero .orange-rectangle{
+    #hero .orange-rectangle {
         right: -15px;
         top: 100px;
         height: 100%;
         width: 330px;
     }
-    #hero .download-buttons{
+    #hero .download-buttons {
         margin-top: 100px;
     }
-    #hero .download-buttons img{
+    #hero .download-buttons img {
         width: 170px;
     }
-    #hero .orange-rectangle img{
+    #hero .orange-rectangle img {
         max-height: 500px;
         max-width: 600px;
         transform: translateX(-200px) translateY(50px);
@@ -227,29 +230,28 @@ header .push-right .btn-login:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #hero .orange-rectangle{
+    #hero .orange-rectangle {
         display: none;
     }
-    #hero .hero-description{
+    #hero .hero-description {
         width: 80%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #hero .download-buttons{
+    #hero .download-buttons {
         margin-top: 40px;
     }
-    #hero .hero-title{
+    #hero .hero-title {
         padding-bottom: 20px;
         font-size: 34px;
         margin-top: 0px;
     }
-
-    #hero .hero-description>p{
+    #hero .hero-description>p {
         font-size: 22px;
         line-height: 33px;
     }
-    #hero .download-buttons img{
+    #hero .download-buttons img {
         width: 130px;
         height: 50px;
         margin-right: 15px;
@@ -257,54 +259,53 @@ header .push-right .btn-login:hover {
 }
 
 @media screen and (max-width: 511px) {
-    #hero .download-buttons{
+    #hero .download-buttons {
         margin-top: 40px;
     }
-    #hero .hero-title{
+    #hero .hero-title {
         padding-bottom: 20px;
         font-size: 32px;
         margin-top: 0px;
     }
-
-    #hero .hero-description>p{
+    #hero .hero-description>p {
         font-size: 20px;
         line-height: 29px;
         font-weight: 400;
         color: #3a3a3a;
     }
-    #hero{
+    #hero {
         padding: 0px 20px;
     }
-    #hero .hero-title{
+    #hero .hero-title {
         margin-top: 40px;
     }
 }
 
-
-
 /* how it works section */
 
-#how-it-works{
+#how-it-works {
     background-color: #f6f6f6;
     padding: 80px 30px;
 }
-.upper-part>div{
+
+.upper-part>div {
     text-align: center;
 }
-.upper-part .section-name{
+
+.upper-part .section-name {
     text-transform: uppercase;
     color: #aaa;
     font-size: 17px;
     font-weight: 450;
 }
 
-.upper-part .section-title{
+.upper-part .section-title {
     text-transform: capitalize;
     font-size: 35px;
     position: relative;
 }
 
-.upper-part .section-title::after{
+.upper-part .section-title::after {
     content: '';
     width: 100px;
     background-color: #ee5b2a;
@@ -315,29 +316,30 @@ header .push-right .btn-login:hover {
     bottom: -20px;
 }
 
-.upper-part .section-desc{
+.upper-part .section-desc {
     color: #aaa;
     font-size: 18px;
     font-weight: 450;
     padding-top: 10px;
 }
 
-.lower-part{
+.lower-part {
     padding-top: 30px;
 }
 
-.lower-part .steps{
+.lower-part .steps {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.steps>.step{
+.steps>.step {
     flex: 1 0 33%;
     text-align: center;
     margin-bottom: 30px;
 }
-.step .step-icon-parent{
+
+.step .step-icon-parent {
     width: 70px;
     height: 70px;
     display: flex;
@@ -347,7 +349,8 @@ header .push-right .btn-login:hover {
     margin: 0 auto;
     border-radius: 10px;
 }
-.step .step-icon{
+
+.step .step-icon {
     width: 60px;
     height: 60px;
     border-radius: 10px;
@@ -357,7 +360,8 @@ header .push-right .btn-login:hover {
     justify-content: center;
     position: relative;
 }
-.step .step-icon .step-no{
+
+.step .step-icon .step-no {
     position: absolute;
     bottom: 0;
     margin: 0 auto -15px;
@@ -371,16 +375,19 @@ header .push-right .btn-login:hover {
     border-radius: 50%;
     font-size: 14px;
 }
-.step .step-icon img{
+
+.step .step-icon img {
     width: 40px;
     height: 40px;
     display: block;
 }
-.step .step-title{
+
+.step .step-title {
     margin-top: 25px;
     font-size: 28px;
 }
-.step .step-desc{
+
+.step .step-desc {
     text-align: center;
     width: 330px;
     margin: 0 auto;
@@ -390,34 +397,98 @@ header .push-right .btn-login:hover {
 }
 
 /* how it works section responsiveness */
+
 @media screen and (max-width: 670px) {
-    .upper-part .section-title{
+    .upper-part .section-title {
         font-size: 30px;
     }
-    #how-it-works{
+    #how-it-works {
         padding: 80px 20px;
     }
 }
 
 @media screen and (max-width: 563px) {
-    .upper-part .section-title{
+    .upper-part .section-title {
         font-size: 20px;
     }
-    #how-it-works{
+    #how-it-works {
         padding: 80px 15px;
     }
-    .upper-part .section-desc{
+    .upper-part .section-desc {
         padding-top: 20px;
     }
 }
 
 @media screen and (max-width: 382px) {
-    .upper-part .section-title{
+    .upper-part .section-title {
         font-size: 18px;
     }
 }
 
+/* how-it-works-desc section */
 
+#how-it-works-desc {
+    display: flex;
+    padding: 80px 30px;
+    background-color: #fff;
+}
+
+#how-it-works-desc>div:first-child {
+    flex: 1 0 40%;
+    width: 30%;
+}
+
+#how-it-works-desc>div:not(:first-child) {
+    flex: 1 0 60%;
+    z-index: 10;
+}
+
+#how-it-works-desc>div:first-child img {
+    position: absolute;
+    transform: translateX(-300px);
+    max-width: 900px;
+}
+
+#how-it-works-desc .section-title {
+    font-size: 27px;
+}
+
+#how-it-works-desc .section-title::after {
+    display: none;
+}
+
+#how-it-works-desc .section-desc {
+    width: 100%;
+    text-align: left;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#how-it-works-desc .upper-part>div {
+    text-align: left;
+}
+
+#how-it-works-desc .services {
+    color: #545454;
+    font-weight: 500;
+    font-size: 24px;
+}
+#how-it-works-desc .services .service{
+    margin-left: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+#how-it-works-desc .services .service::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #ee5b2a;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    border-radius: 50%;
+
+}
 /* utilities */
 
 .d-flex {
@@ -435,6 +506,7 @@ header .push-right .btn-login:hover {
 .text-center {
     text-align: center;
 }
+
 .text-uppercase {
     text-transform: uppercase;
 }
