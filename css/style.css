@@ -81,6 +81,60 @@ header .push-right .auth{
 }
 header .push-right .btn-login:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: #F9621F;
+    color: #fff;
+}
+
+/* header responsiveness */
+@media screen and (max-width: 992px) {
+    header .push-right .auth{
+        margin-left: 20px;
+        padding-right: 10px !important;
+    }
+
+    header .push-right>.nav .nav-item {
+        padding: 0 25px;
+        font-size: 19px;
+    }
+    header .logo>h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    header .push-right .auth{
+        margin-left: 10px;
+        padding-right: 10px !important;
+    }
+
+    header .push-right>.nav .nav-item {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+    header .logo>h1 {
+        font-size: 25px;
+    }
+    header .push-right .btn-login {
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 701px) {
+
+    header .push-right>.nav .nav-item:not(.auth) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 411px) {
+
+    header .push-right .btn-login {
+        padding: 10px 20px;
+    }
+    .header {
+        padding: 5px 10px 0px;
+        display: flex;
+    }
 }
 
 /* utilities */
