@@ -273,7 +273,7 @@ header .push-right .btn-login:hover {
         color: #3a3a3a;
     }
     #hero{
-        padding: 0px 20px 0 20px;
+        padding: 0px 20px;
     }
     #hero .hero-title{
         margin-top: 40px;
@@ -309,16 +309,17 @@ header .push-right .btn-login:hover {
     width: 100px;
     background-color: #ee5b2a;
     position: absolute;
-    width: 100px;
+    width: 140px;
     height: 5px;
-    left: calc(50% - 100px);
-    bottom: -15px;
+    left: calc(50% - 70px);
+    bottom: -20px;
 }
 
 .upper-part .section-desc{
     color: #aaa;
     font-size: 18px;
     font-weight: 450;
+    padding-top: 10px;
 }
 
 .lower-part{
@@ -387,6 +388,35 @@ header .push-right .btn-login:hover {
     font-size: 23px;
     font-weight: 450;
 }
+
+/* how it works section responsiveness */
+@media screen and (max-width: 670px) {
+    .upper-part .section-title{
+        font-size: 30px;
+    }
+    #how-it-works{
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .upper-part .section-title{
+        font-size: 20px;
+    }
+    #how-it-works{
+        padding: 80px 15px;
+    }
+    .upper-part .section-desc{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .upper-part .section-title{
+        font-size: 18px;
+    }
+}
+
 
 /* utilities */
 
