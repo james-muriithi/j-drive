@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
 /* global styles */
 
-html, body, #main {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Roboto, serif;
     background-color: #fefefe;
+    overflow-x: hidden;
+
 }
 
 #main {
@@ -445,8 +447,8 @@ header .push-right .btn-login:hover {
 
 #how-it-works-desc>div:first-child img {
     position: absolute;
-    transform: translateX(-300px);
-    max-width: 900px;
+    transform: translateX(-270px);
+    width: 900px;
 }
 
 #how-it-works-desc .section-title {
