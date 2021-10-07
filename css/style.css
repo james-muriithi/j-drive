@@ -435,7 +435,7 @@ header .push-right .btn-login:hover {
 
 #how-it-works-desc>div:first-child {
     flex: 1 0 40%;
-    width: 30%;
+    /* width: 30%; */
 }
 
 #how-it-works-desc>div:not(:first-child) {
@@ -488,6 +488,21 @@ header .push-right .btn-login:hover {
     bottom: 5px;
     border-radius: 50%;
 
+}
+
+@media screen and (max-width: 992px) {
+    #how-it-works-desc>div:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #how-it-works-desc .services .service{
+        font-size: 20px;
+    }
+    #how-it-works-desc .section-desc {
+        font-size: 23px;
+    }
 }
 /* utilities */
 
